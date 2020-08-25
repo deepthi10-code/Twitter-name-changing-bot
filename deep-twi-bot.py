@@ -12,7 +12,7 @@ def create_api():
   api = tweepy.API(auth,wait_on_rate_limit=True,wait_on_rate_limit_notify=True)
   api.verify_credentials()
   print('API Created')
-  return api
+  return api 
   
 import time
 
