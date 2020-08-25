@@ -10,7 +10,7 @@ def create_api():
   auth.set_access_token(access_token, access_token_secret)
 
   api = tweepy.API(auth,wait_on_rate_limit=True,wait_on_rate_limit_notify=True)
-  api.verify_credentials()
+  api.verify_credentials()  
   print('API Created')
   return api 
   
