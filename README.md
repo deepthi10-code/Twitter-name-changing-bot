@@ -1,2 +1,2 @@
 # Twitter-name-changing-bot
-It changes the names and the follower count
+It changes the name and the followers count
